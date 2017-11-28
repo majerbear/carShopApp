@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D974C341FCDD83000589290 /* EngineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D974C331FCDD83000589290 /* EngineViewController.swift */; };
+		9D974C361FCDE57C00589290 /* DriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D974C351FCDE57C00589290 /* DriveViewController.swift */; };
+		9D974C381FCDE69800589290 /* SuspensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D974C371FCDE69800589290 /* SuspensionViewController.swift */; };
+		9D974C3A1FCDE7B200589290 /* LightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D974C391FCDE7B200589290 /* LightViewController.swift */; };
+		9D974C3C1FCDE89400589290 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D974C3B1FCDE89400589290 /* GeneralViewController.swift */; };
 		9DE6DF741FB0E40B00E60C1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6DF731FB0E40B00E60C1A /* AppDelegate.swift */; };
 		9DE6DF761FB0E40B00E60C1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6DF751FB0E40B00E60C1A /* ViewController.swift */; };
-		9DE6DF791FB0E40B00E60C1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE6DF771FB0E40B00E60C1A /* Main.storyboard */; };
 		9DE6DF7B1FB0E40B00E60C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE6DF7A1FB0E40B00E60C1A /* Assets.xcassets */; };
 		9DE6DF7E1FB0E40B00E60C1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE6DF7C1FB0E40B00E60C1A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D974C331FCDD83000589290 /* EngineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineViewController.swift; sourceTree = "<group>"; };
+		9D974C351FCDE57C00589290 /* DriveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveViewController.swift; sourceTree = "<group>"; };
+		9D974C371FCDE69800589290 /* SuspensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspensionViewController.swift; sourceTree = "<group>"; };
+		9D974C391FCDE7B200589290 /* LightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightViewController.swift; sourceTree = "<group>"; };
+		9D974C3B1FCDE89400589290 /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
 		9DE6DF701FB0E40B00E60C1A /* carShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE6DF731FB0E40B00E60C1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DE6DF751FB0E40B00E60C1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9DE6DF781FB0E40B00E60C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DE6DF7A1FB0E40B00E60C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE6DF7D1FB0E40B00E60C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DE6DF7F1FB0E40B00E60C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +64,11 @@
 			children = (
 				9DE6DF731FB0E40B00E60C1A /* AppDelegate.swift */,
 				9DE6DF751FB0E40B00E60C1A /* ViewController.swift */,
-				9DE6DF771FB0E40B00E60C1A /* Main.storyboard */,
+				9D974C3B1FCDE89400589290 /* GeneralViewController.swift */,
+				9D974C391FCDE7B200589290 /* LightViewController.swift */,
+				9D974C371FCDE69800589290 /* SuspensionViewController.swift */,
+				9D974C351FCDE57C00589290 /* DriveViewController.swift */,
+				9D974C331FCDD83000589290 /* EngineViewController.swift */,
 				9DE6DF7A1FB0E40B00E60C1A /* Assets.xcassets */,
 				9DE6DF7C1FB0E40B00E60C1A /* LaunchScreen.storyboard */,
 				9DE6DF7F1FB0E40B00E60C1A /* Info.plist */,
@@ -125,7 +137,6 @@
 			files = (
 				9DE6DF7E1FB0E40B00E60C1A /* LaunchScreen.storyboard in Resources */,
 				9DE6DF7B1FB0E40B00E60C1A /* Assets.xcassets in Resources */,
-				9DE6DF791FB0E40B00E60C1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,21 +148,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DE6DF761FB0E40B00E60C1A /* ViewController.swift in Sources */,
+				9D974C3C1FCDE89400589290 /* GeneralViewController.swift in Sources */,
+				9D974C3A1FCDE7B200589290 /* LightViewController.swift in Sources */,
+				9D974C361FCDE57C00589290 /* DriveViewController.swift in Sources */,
+				9D974C381FCDE69800589290 /* SuspensionViewController.swift in Sources */,
 				9DE6DF741FB0E40B00E60C1A /* AppDelegate.swift in Sources */,
+				9D974C341FCDD83000589290 /* EngineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9DE6DF771FB0E40B00E60C1A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DE6DF781FB0E40B00E60C1A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9DE6DF7C1FB0E40B00E60C1A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -9,22 +9,49 @@ import UIKit
 
 class SuspensionViewController: UIViewController
 {
-    var suspensionLabel: UILabel
+    var one: UILabel
+    var two: UILabel
+    var three: UILabel
+    var four: UILabel
+    var five: UILabel
     var exit: UILabel
     var submit: UILabel
     init(string: String)
     {
-        suspensionLabel = UILabel()
+        one = UILabel()
+        two = UILabel()
+        three = UILabel()
+        four = UILabel()
+        five = UILabel()
         exit = UILabel()
         submit = UILabel()
         
         super.init(nibName: nil, bundle: nil)
         
-        let this = suspensionLabel
-        this.frame = CGRect(x: 50 , y: UIScreen.main.bounds.size.height/2, width: 300, height: 150)
-        this.numberOfLines = 5
-        this.text = "Sway Bar Service" + "\n" + "Tie Rod Repair" + "\n" + "Control Arm Service" + "\n" + "Shock Replacement" + "\n" + "Ball Joint Replacement"
+        let this = one
+        this.frame = CGRect(x: 50 , y: UIScreen.main.bounds.size.height/2, width: 300, height: 50)
+        this.text = "Sway Bar Replacement"
         self.view.addSubview(this)
+        
+        let t = two
+        t.frame = CGRect(x: 50 , y: UIScreen.main.bounds.size.height/2+20, width: 300, height: 50)
+        t.text = "Tie Rod Replacement"
+        self.view.addSubview(t)
+        
+        let th = three
+        th.frame = CGRect(x: 50 , y: UIScreen.main.bounds.size.height/2+40, width: 300, height: 50)
+        th.text = "Ball Joint Replacement"
+        self.view.addSubview(th)
+        
+        let f = four
+        f.frame = CGRect(x: 50 , y: UIScreen.main.bounds.size.height/2+60, width: 300, height: 50)
+        f.text = "Shock Replacement"
+        self.view.addSubview(f)
+        
+        let w = five
+        w.frame = CGRect(x: 50 , y: UIScreen.main.bounds.size.height/2+80, width: 300, height: 50)
+        w.text = "Control Arm Replacement"
+        self.view.addSubview(w)
         
         exit.frame = CGRect(x: 50 , y: UIScreen.main.bounds.size.height/2+200, width: 200, height: 50)
         exit.text = "Return To Main Page"
